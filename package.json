@@ -1,0 +1,17 @@
+{
+    "name": "ledger"
+  , "version": "0.0.1"
+  , "description": "Ledger is a simple event store for nodejs."
+  , "keywords": ["ledger", "event store", "event", "store", "ddd", "cqrs", "events"]
+  , "author": "Dominic Green <dominicgreen1@gmail.com>"
+  , "repository": { "type": "git", "url": "git://github.com/domgreen/ledger.git" }
+  , "main": "./index"
+  , "dependencies": {
+      "redis": "*"
+    , "colors": "*"
+  }
+  , "devDependencies":{
+       "mocha": "*"
+     , "chai": "*"
+  }
+}
